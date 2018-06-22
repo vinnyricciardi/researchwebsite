@@ -29,10 +29,10 @@ SITESUBTITLE = u'bridging data science & food security'
 # HOMEPAGE_IMG_TXT = "What if we had multiple natural disasters at once - how would it affect our food system?<br/>This map shows synchrony of natural disasters over the last 100 years."
 HOMEPAGE_IMG_TXT = """
 This site shares my research on our <br/>
-global food system and tech tips
+global food system 
 """
 #  <br/>
-# I run into while tinkering with code.
+# and tech tips I run into while tinkering with code.
 
 SITEURL = 'https://vinnyricciardi.github.io/'
 PATH = 'content/'
