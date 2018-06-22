@@ -29,9 +29,11 @@ SITESUBTITLE = u'bridging data science & food security'
 # HOMEPAGE_IMG_TXT = "What if we had multiple natural disasters at once - how would it affect our food system?<br/>This map shows synchrony of natural disasters over the last 100 years."
 HOMEPAGE_IMG_TXT = """
 This site shares my research on our <br/>
-global food system and tech tips <br/>
-I run into while tinkering with code.
+global food system and tech tips
 """
+#  <br/>
+# I run into while tinkering with code.
+
 SITEURL = 'https://vinnyricciardi.github.io/'
 PATH = 'content/'
 PAGE_PATHS = ['images']
@@ -158,14 +160,16 @@ DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 
 MENUITEMS = [
-    ('About', [
-        ('Dishing Data', '/aboutme/aboutdishingdata/'),
-        ('About Me', '/aboutme/bio/'),
-        ('Curriculum Vitae', '/aboutme/curriculumvitae/'),
-        ('Email', 'mailto: vinnyricciardi@gmail.com'),
-        ]),
+    # ('About', [
+    #     ('Dishing Data', '/aboutme/aboutdishingdata/'),
+    #     ('About Me', '/aboutme/bio/'),
+    #     ('Curriculum Vitae', '/aboutme/curriculumvitae/'),
+    #     ('Email', 'mailto: vinnyricciardi@gmail.com'),
+    #     ]),
+    ('About Me', '/aboutme/bio/'),
+    ('CV', '/aboutme/curriculumvitae/'),
     ('Research Projects', [
-        ('Farm Size', '/smallholders/Farm_Size_Project/index.html'),
+        ('Farm Size', '/misc/Place_Holder/index.html'),   # '/smallholders/Farm_Size_Project/index.html'),
         ('&nbsp&nbsp How much food do smallholders produce?', '/smallholders/Global_production/index.html'),
         # ('&nbsp&nbsp Systematic Review', '/misc/Place_Holder/index.html'),        # To be replaced with jupyter notebook
         # ('&nbsp&nbsp Climate Impacts', '/misc/Place_Holder/index.html'),          # To be replaced with jupyter notebook
@@ -173,7 +177,7 @@ MENUITEMS = [
         ('Mountain Farming', '/mtnadaptation/Mtn_Adaptation_Project/index.html'), 
         ('&nbsp&nbsp Climate adaptation in mountains: Are they enough?', '/mtnadaptation/Mtn_Adaptation_Project/index.html')    
         ]),
-    ('Tools and Tricks', '/category/toolsntricks.html'),
+    # ('Tools and Tricks', '/category/toolsntricks.html'),
     ('News', '/news/news/index.html')
     ]
 
