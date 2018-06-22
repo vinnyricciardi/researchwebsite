@@ -1,0 +1,276 @@
+<h1>pelican-bootstrap3</h1>
+
+<p>This is a Bootstrap 3 theme for Pelican. It's fully responsive. Bootstrap 3 has seen an official, final release now, so
+I don't expect any breaking changes anymore. I will try to keep it up-to-date.</p>
+
+<h2>CONTRIBUTING</h2>
+
+<p>If you want to adjust this theme to your own liking, I encourage you to fork it. This theme has started to gather more
+and more attention in the form of stars and forks. If you make improvements that are useful to others and can make the
+theme better in general <strong>please don't hesitate to make a pull request</strong>. For contributing guidelines, <a href="CONTRIBUTING.md">look here</a></p>
+
+<h2>Installation</h2>
+
+<p>First:</p>
+
+<p><code>git clone https://github.com/DandyDev/pelican-bootstrap3.git</code></p>
+
+<p>Then:</p>
+
+<p>Point the <code>THEME</code> variable in your <code>pelicanconf.py</code> to <code>/path/to/pelican-bootstrap3</code></p>
+
+<h2>Usage</h2>
+
+<p>This theme honors the following standard Pelican settings:</p>
+
+<ul>
+<li>Putting feeds in the <code>&lt;head&gt;</code> section:
+<ul>
+<li><code>FEED_ALL_ATOM</code></li>
+<li><code>FEED_ALL_RSS</code></li>
+</ul></li>
+<li>Template settings:
+<ul>
+<li><code>DISPLAY_PAGES_ON_MENU</code></li>
+<li><code>DISPLAY_CATEGORIES_ON_MENU</code></li>
+<li><code>MENUITEMS</code></li>
+<li><code>LINKS</code> (Blogroll will be put in the sidebar instead of the head)</li>
+</ul></li>
+<li>Analytics &amp; Comments
+<ul>
+<li><code>GOOGLE_ANALYTICS</code> (classic tracking code)</li>
+<li><code>GOOGLE_ANALYTICS_UNIVERSAL</code> and <code>GOOGLE_ANALYTICS_UNIVERSAL_PROPERTY</code> (Universal tracking code)</li>
+<li><code>DISQUS_SITENAME</code></li>
+<li><code>PIWIK_URL</code>, <code>PIWIK_SSL_URL</code> and <code>PIWIK_SITE_ID</code></li>
+</ul></li>
+</ul>
+
+<p>It uses the <code>tag_cloud</code> variable for displaying tags in the sidebar. You can control the amount of tags shown with: <code>TAG_CLOUD_MAX_ITEMS</code></p>
+
+<h2>Extras</h2>
+
+<h3>Bootswatch and other Bootstrap 3 themes</h3>
+
+<p>Part of the versatility of this theme comes from the fact that I included all the lovely Bootstrap 3 themes from <a href="http://bootswatch.com/">Bootswatch</a>, built by <a href="https://github.com/thomaspark">Thomas Park</a>. You can tell Pelican what Bootswatch theme to use, by setting <code>BOOTSTRAP_THEME</code> to the desired theme, in lowercase (ie. 'readable' or 'cosmo' etc.). My own site is using <em>Readable</em>. If you want to use any other Bootstrap 3 compatible theme, just put the minified CSS in the <code>static/css</code> directory and rename it using the following naming scheme: <code>bootstrap.{theme-name}.min.css</code>. Then update the <code>BOOTSTRAP_THEME</code> variable with the <em>theme-name</em> used.</p>
+
+<h4>Update: Readable has seen some major changes. I added the new version as 'readable' and renamed the old version to 'readable-old'. Update your config accordingly.</h4>
+
+<h3>Article info</h3>
+
+<p>Set <code>SHOW_ARTICLE_AUTHOR</code> to True to show the author of the article at the top of the article and in the index of articles. Set <code>SHOW_ARTICLE_CATEGORY</code> to show the Category of each article.</p>
+
+<h3>Custom CSS</h3>
+
+<p>If you want to add custom css to the theme, without having to clone and maintain your own version of the theme, you can use the <code>CUSTOM_CSS</code> variable. The value is the location where you tell Pelican to put the file (see below):</p>
+
+<p><code>
+CUSTOM_CSS = 'static/custom.css'
+</code></p>
+
+<p>To tell Pelican to copy the relevant file to the desired destination, add the path to <code>STATIC_PATHS</code> and the destination to <code>EXTRA_PATH_METADATA</code>, like so:</p>
+
+<p>```</p>
+
+<h1>Tell Pelican to add 'extra/custom.css' to the output dir</h1>
+
+<p>STATIC_PATHS = ['images', 'extra/custom.css']</p>
+
+<h1>Tell Pelican to change the path to 'static/custom.css' in the output dir</h1>
+
+<p>EXTRA<em>PATH</em>METADATA = {
+    'extra/custom.css': {'path': 'static/custom.css'}
+}
+```</p>
+
+<h3>Pygments</h3>
+
+<p>You can choose the syntax highlighting style by using the <code>PYGMENTS_STYLE</code> variable to specify one of the built-in Pygments styles. By default the <code>native</code> style is used. The following styles are avaiable:</p>
+
+<ul>
+<li>autumn</li>
+<li>borland</li>
+<li>bw</li>
+<li>colorful</li>
+<li>default</li>
+<li>emacs</li>
+<li>friendly</li>
+<li>fruity</li>
+<li>manni</li>
+<li>monokai</li>
+<li>murphy</li>
+<li>native</li>
+<li>pastie</li>
+<li>perldoc</li>
+<li>solarizeddark</li>
+<li>solarizedlight</li>
+<li>tango</li>
+<li>trac</li>
+<li>vim</li>
+<li>vs</li>
+<li>zenburn</li>
+</ul>
+
+<p>For a demo of the different Pygment styles, have a look <a href="http://pygments.org/demo/218030/">here</a></p>
+
+<h3>Pagination</h3>
+
+<p>Pelican-Bootstrap3 follows the standard Pagination settings of Pelican and uses the Bootstrap3 <a href="http://getbootstrap.com/components/#pagination">Pagination component</a>, but you can optionally use the Boostrap3 <em>Pager</em> by setting <code>USE_PAGER</code> to <code>True</code>.</p>
+
+<h3>Site Brand</h3>
+
+<p>You can provide a logo for your site using <code>SITELOGO</code>. For example: <code>SITELOGO = 'images/my_site_logo.png'</code>. You can then define the size of the logo using <code>SITELOGO_SIZE</code>. The <code>width</code> of the <code>&lt;img&gt;</code> element will be set accordingly.</p>
+
+<p>By default the <code>SITENAME</code> will be shown as well. It's also possible to hide the site name using the <code>HIDE_SITENAME</code> flag.</p>
+
+<h3>Breadcrumbs</h3>
+
+<p>It's possible to show breadcrumbs in your site using the <code>DISPLAY_BREADCRUMBS</code> flag. By default the article category isn't shown in the breadcrumbs, if you wish to enable it, set the <code>DISPLAY_CATEGORY_IN_BREADCRUMBS</code> flag to <em>True</em>.</p>
+
+<h3>Navbar</h3>
+
+<p>If you wish to use the inverse navbar from Bootstrap, set the flag <code>BOOTSTRAP_NAVBAR_INVERSE</code> to <em>True</em>.</p>
+
+<h3>Related Posts</h3>
+
+<p>This theme has support for the <a href="https://github.com/getpelican/pelican-plugins/tree/master/related_posts">Related Posts plugin</a>. All you have to do, is enable the plugin, and the theme will do the rest.</p>
+
+<h3>IPython Notebook support</h3>
+
+<p>This theme supports including IPython notebooks through the <a href="https://github.com/getpelican/pelican-plugins/tree/master/liquid_tags">Liquid Tags plugin</a>. If you enable the plugin, the theme will automatically include the right CSS/JS to make the notebooks work.</p>
+
+<h3>Favicon</h3>
+
+<p>Set the <code>FAVICON</code> option in your <code>pelicanconf.py</code>. For example: <code>FAVICON = 'images/favicon.png'</code></p>
+
+<h3>Index page</h3>
+
+<ul>
+<li>If <code>DISPLAY_ARTICLE_INFO_ON_INDEX</code> is set to <em>True</em>, article info (date, tags) will be show under the title for each article, otherwise only title and summary will be shown (default). </li>
+</ul>
+
+<h3>Short menu labels for pages</h3>
+
+<p>By default, the title of a page is used both for showing the title as
+part of a page's content, and, if pages in menu is enabled, as the
+label of the corresponding menu item. You can choose a different label
+for the menu (such as a short single word) than the page title by adding a
+Menulabel metadata attribute to the page header (<code>Menulabel:</code> in
+markdown, <code>:Menulabel:</code> in rst).</p>
+
+<h3>About Me</h3>
+
+<p>You can show a short blurb of text about yourself and a picture. The following two settings are used for this:</p>
+
+<ul>
+<li>Your 'About Me' paragraph will be whatever the <code>ABOUT_ME</code> variable is set to (raw html is allowed)</li>
+<li>Your avatar can be set by pointing the <code>AVATAR</code> variable to the relevant picture (e.g. 'images/profile.png')</li>
+</ul>
+
+<h3>Sidebar options</h3>
+
+<p>The following things can be displayed on the sidebar:</p>
+
+<ul>
+<li><strong>Social links</strong> can be provided through the <code>SOCIAL</code> variable. If it's empty, the section will not be shown
+<ul>
+<li>In your <code>pelicanconf.py</code> provide your social links like this:</li>
+</ul></li>
+</ul>
+
+<p><code>
+SOCIAL = (('twitter', 'http://twitter.com/DaanDebie'),
+          ('linkedin', 'http://www.linkedin.com/in/danieldebie'),
+          ('github', 'http://github.com/DandyDev'),)
+</code>
+* <strong>Tags</strong> will be shown if <code>DISPLAY_TAGS_ON_SIDEBAR</code> is set to <em>True</em>. Normally, tags are shown as a list.
+    * Set <code>DISPLAY_TAGS_INLINE</code> to <em>True</em>, to display the tags inline (ie. as tagcloud)
+* <strong>Categories</strong> will be shown if <code>DISPLAY_CATEGORIES_ON_SIDEBAR</code> is set to <em>True</em>
+* <strong>Recent Posts</strong> will be shown if <code>DISPLAY_RECENT_POSTS_ON_SIDEBAR</code> is set to <em>True</em>
+    * Use <code>RECENT_POST_COUNT</code> to control the amount of recent posts. Defaults to <strong>5</strong></p>
+
+<p>To remove the sidebar entirely, set <code>HIDE_SIDEBAR</code> to <em>True</em>.</p>
+
+<h3>reStructuredText styles</h3>
+
+<p>If you're using reStructuredText for writing articles and pages, you can include the extra CSS styles that are used by the <code>docutils</code>-generated HTML by setting <code>DOCUTIL_CSS</code> to True. This can be done as a global setting or  setting it in the metadata of a specific article or page.</p>
+
+<h3>Disqus comments</h3>
+
+<ul>
+<li>This theme sets identifiers for each article's comment threads. If you are switching from a theme that doesn't (such as the Pelican built-in default) this will result in existing comments getting lost. To prevent this, set DISQUS<em>NO</em>ID to <em>True</em>.</li>
+<li>Set DISQUS<em>ID</em>PREFIX<em>SLUG to _True</em> if you have configured your article URLs such that the slug alone will likely not be unique. Ignored if DISQUS<em>NO</em>ID is <em>True</em>.</li>
+<li>You can also enable Disqus comments for pages. This is a per-page setting you can control by adding a field <code>comments</code> to you pages' metadata. Set it to <em>enabled</em> to enable comments for that page. Comment-threads for pages will have an id that is prefixed by 'page-'.</li>
+<li>To show Disqus comment counts on the index page, set DISQUS<em>DISPLAY</em>COUNTS to <em>True</em>.</li>
+</ul>
+
+<h3>Content license</h3>
+
+<p>You can optionally declare a <a href="http://creativecommons.org">Creative Commons license</a> for the content of your site. It will appear in the site's footer. To enable, use one of the following two ways for configuration.</p>
+
+<ul>
+<li>To choose the license by name, set <code>CC_LICENSE</code> to the common abbreviated name of the license: <code>"CC-BY"</code> (require attribution), <code>"CC-BY-SA"</code> (require ShareAlike), <code>"CC-BY-ND"</code> (NoDerivatives) , <code>"CC-BY-NC"</code> (require attribution, no commercial reuse), <code>"CC-BY-NC-SA"</code> (require ShareAlike, no commercial reuse), or <code>"CC-BY-NC-ND"</code> (NoDerivatives, no commercial reuse).</li>
+<li>Alternatively, choose the licence by features:
+<ul>
+<li><code>CC_LICENSE_DERIVATIVES</code> - <code>"yes"</code> if permitted, <code>"no"</code> if not permitted, and <code>"ShareAlike"</code> if derivatives must be shared under the same terms.</li>
+<li><code>CC_LICENSE_COMMERCIAL</code> - <code>"yes"</code> if commercial reuse is permitted, and <code>"no"</code> otherwise. </li>
+</ul></li>
+<li>Optionally, you can include attribution markup in the license mark by setting <code>CC_ATTR_MARKUP</code> to <em>True</em>.</li>
+</ul>
+
+<p>The license choice mirrors the <a href="http://creativecommons.org/choose/">Creative Commons License Chooser</a>. Source for the macro that renders the mark is at http://github.com/hlapp/cc-tools.</p>
+
+<h3>GitHub</h3>
+
+<p>The theme can show your most recently active GitHub repos in the sidebar. To enable, provide a <code>GITHUB_USER</code>. Appearance and behaviour can be controlled using the following variables:</p>
+
+<ul>
+<li><code>GITHUB_REPO_COUNT</code></li>
+<li><code>GITHUB_SKIP_FORK</code></li>
+<li><code>GITHUB_SHOW_USER_LINK</code></li>
+</ul>
+
+<h3>Facebook Open Graph</h3>
+
+<p>In order to make the Facebook like button and other social sharing options work better, the template contains Open Graph metatags like <code>&lt;meta property="og:type" content="article"/&gt;</code>. You can disable them by setting <code>USE_OPEN_GRAPH</code> to <em>False</em>. You can use <code>OPEN_GRAPH_FB_APP_ID</code> to provide a Facebook <em>app id</em>. 
+You can also provide a default image that will be passed as an Open Graph tag  by setting <code>OPEN_GRAPH_IMAGE</code> to a relative file path, which will be prefixed by your site's base url. Optionally, you can override this default image on a per article and per page basis, by setting the <code>og_image</code> variable in an article or page.</p>
+
+<h3>Twitter Cards</h3>
+
+<p>The theme supports <a href="https://dev.twitter.com/docs/cards/types/summary-card">Summary Twitter Cards</a>. To activate the necessary tags set <code>TWITTER_CARDS</code> to <code>True</code>. Because <em>Twitter Cards</em> also use Open Graph tags to identify some of the necessary metadata, <code>USE_OPEN_GRAPH</code> must also be set to <code>True</code> (which is the default).</p>
+
+<p>You can optionally provide a <code>TWITTER_USERNAME</code> which will be used to set the Twitter username for the site and for the content creator.</p>
+
+<p>The same image options for Open Graph (see above) can be used for setting images that appear on Twitter Cards. So if you have set an <code>OPEN_GRAPH_IMAGE</code> and optionally <code>og_image</code> for articles and/or pages, you're good to go for Twitter Cards as well.</p>
+
+<h3>Twitter Timeline</h3>
+
+<p>The theme can show your twitter timeline in the sidebar. To enable, provide a <code>TWITTER_USERNAME</code> and a <code>TWITTER_WIDGET_ID</code>.</p>
+
+<p>To get a <code>TWITTER_WIDGET_ID</code>, go to: https://twitter.com/settings/widgets and select <code>Create new</code>. You'll find the TWITTER<em>WIDGET</em>ID under the html or in the site url:</p>
+
+<p><code>https://twitter.com/settings/widgets/TWITTER_WIDGET_ID/edit</code></p>
+
+<h3>AddThis</h3>
+
+<p>You can enable sharing buttons through <a href="http://www.addthis.com/">AddThis</a> by setting <code>ADDTHIS_PROFILE</code> to your AddThis profile-id. This will display a <strong>Tweet</strong>, <strong>Facebook Like</strong> and <strong>Google +1</strong> button under each post.</p>
+
+<ul>
+<li>AddThis automatically adds a short hashtag to the end of your URLs. This lets you reveal how often visitors copy your URL from their address bar to share. Example of URL: <code>http://domain.com/page.html#UF0983</code>. This function can be disabled by setting <code>ADDTHIS_DATA_TRACK_ADDRESSBAR</code> to <em>False</em>.</li>
+<li>All social buttons are enabled by default. You can disable certain button by setting following properties to <em>False</em>: <code>ADDTHIS_FACEBOOK_LIKE</code>, <code>ADDTHIS_TWEET</code>, <code>ADDTHIS_GOOGLE_PLUSONE</code>.</li>
+</ul>
+
+<h3>Footer</h3>
+
+<p>The footer will display a copyright message using the AUTHOR variable and the year of the latest post. If a content license mark is enabled (see above), that will be shown as well. </p>
+
+<h2>Live example</h2>
+
+<p><a href="http://dandydev.net">This is my website</a></p>
+
+<p>If you want more examples of what you could do with this theme, have a <a href="EXAMPLES.md">look here</a>.</p>
+
+<h2>Screenshot</h2>
+
+<p><img src="screenshot.png" alt="" title="" /></p>
+
+<p><img src="screenshot-article.png" alt="" title="" /></p>

@@ -1,0 +1,21 @@
+node,node_label,node_grouping,node_color
+0,Professional,degree_prof,#b0aac2
+1,MSc Penn State,degree_prof,#b0aac2
+2,PhD UBC,degree_prof,#b0aac2
+3,Thailand,location,#c2d4d8
+4,Cambodia,location,#c2d4d8
+5,Ghana,location,#c2d4d8
+6,Vietnam,location,#c2d4d8
+7,India,location,#c2d4d8
+8,Global,location,#c2d4d8
+9,Data Harmonization,skill,#f2efe8
+10,Geographic Information Systems (GIS),skill,#f2efe8
+11,Household Survey,skill,#f2efe8
+12,Monitoring and Evaluation,skill,#f2efe8
+13,Machine Learning,skill,#f2efe8
+14,Remote Sensing,skill,#f2efe8
+15,Seed Trials,skill,#f2efe8
+16,Inferential Statistics,skill,#f2efe8
+17,Spatial Statistics,skill,#f2efe8
+18,Network Analysis,skill,#f2efe8
+19,Meta-analysis,skill,#f2efe8

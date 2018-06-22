@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block canonical_rel %}
+<link rel="canonical" href="{{ SITEURL }}">
+{% endblock %}
+
+
+{% block banner %}
+<style>
+#banner{
+    background-image:url("{{ BANNER }}");
+}
+body {
+    padding-top: 50px;
+}
+</style>
+
+<div id="banner">
+	<div class="container">
+		<div class="row">
+			<div class="copy">
+				<h1 style="text-transform: none;">{{ SITENAME }}</h1>
+				{% if SITESUBTITLE %}
+					<p class="intro">{{ SITESUBTITLE }}<br/><br/>
+									 {{ HOMEPAGE_IMG_TXT }}</p><br/>
+
+				{% endif %}
+	   		</div>
+	   	</div>
+	</div>
+</div>
+{% endblock %}
+
+<!-- {% block content %}
+<style>
+#maintext{
+    background-image:url("{{ BANNER }}");
+}
+body {
+    /*padding-top: 50px;*/
+}
+</style>
+<!-- <div id="banner">
+	<div class="container">
+	</div>
+</div> -->
+
+
+<div id="content">
+	<div class="container">
+	    <!-- <div class="row"> -->
+<!-- 	        <div class="col-lg-12" style="word-wrap: break-word; width:100%;">
+				{{ HOMEPAGE }}
+			</div> -->
+	    </div>
+	</div>
+</div>
+{% endblock %} -->

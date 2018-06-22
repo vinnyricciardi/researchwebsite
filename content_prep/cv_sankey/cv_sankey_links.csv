@@ -1,0 +1,36 @@
+source,target,source_txt,target_txt,link_note,years,link_value,link_label
+0,3,Professional,Thailand,location,2,0.5,Where I worked
+0,4,Professional,Cambodia,location,2,0.5,Where I worked
+0,5,Professional,Ghana,location,3,0.75,Where I worked
+0,6,Professional,Vietnam,location,0.5,0.125,Where I worked
+1,4,MSc Penn State,Cambodia,location,0.25,0.0625,Where I worked
+1,5,MSc Penn State,Ghana,location,2,0.5,Where I worked
+2,7,PhD UBC,India,location,2,0.5,Where I worked
+2,8,PhD UBC,Global,location,3,0.75,Where I worked
+3,11,Thailand,Household Survey,skil,1,0.25,How I worked
+3,15,Thailand,"Resource Surveying (forest survey, crop seed trials)",skil,1,0.25,How I worked
+3,18,Thailand,Network Analysis,skil,1,0.25,How I worked
+4,10,Cambodia,Geographic Information Systems (GIS),skil,1,0.25,How I worked
+4,11,Cambodia,Household Survey,skil,2,0.5,How I worked
+4,12,Cambodia,Monitoring and Evaluation,skil,1,0.25,How I worked
+4,15,Cambodia,"Resource Surveying (forest survey, crop seed trials)",skil,1,0.25,How I worked
+4,16,Cambodia,Inferential Statistics,skil,1,0.25,How I worked
+4,17,Cambodia,Spatial Statistics,skil,1,0.25,How I worked
+5,10,Ghana,Geographic Information Systems (GIS),skil,2,0.5,How I worked
+5,11,Ghana,Household Survey,skil,2,0.5,How I worked
+5,16,Ghana,Inferential Statistics,skil,2,0.5,How I worked
+5,17,Ghana,Spatial Statistics,skil,2,0.5,How I worked
+5,18,Ghana,Network Analysis,skil,2,0.5,How I worked
+6,10,Vietnam,Geographic Information Systems (GIS),skil,0.25,0.0625,How I worked
+6,12,Vietnam,Monitoring and Evaluation,skil,0.25,0.0625,How I worked
+7,9,India,Data Harmonization,skil,2,0.5,How I worked
+7,10,India,Geographic Information Systems (GIS),skil,2,0.5,How I worked
+7,13,India,Machine Learning,skil,2,0.5,How I worked
+7,14,India,Remote Sensing,skil,0.5,0.125,How I worked
+7,16,India,Inferential Statistics,skil,2,0.5,How I worked
+7,17,India,Spatial Statistics,skil,2,0.5,How I worked
+8,9,Global,Data Harmonization,skil,4,1,How I worked
+8,10,Global,Geographic Information Systems (GIS),skil,2,0.5,How I worked
+8,16,Global,Inferential Statistics,skil,4,1,How I worked
+8,17,Global,Spatial Statistics,skil,2,0.5,How I worked
+8,19,Global,Meta-analysis,skil,2,0.5,How I worked
