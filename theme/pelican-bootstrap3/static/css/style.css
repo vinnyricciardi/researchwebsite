@@ -265,9 +265,10 @@ figure.floatcenter, .align-center {
     }
 }
 
-/*@media (min-width: 300px max-width: 800px) {
+@media (min-width: 401px) and (max-width: 799px) {
     #banner {
-        height: 600px;
+        height: 100%;
+        background-size: 200% auto;
     }
     #banner h1{
        font-size: 20px;
@@ -278,20 +279,28 @@ figure.floatcenter, .align-center {
     #banner .text_display {
         font-size: 10px;
     }
+    #aboutme {
+        max-width: 75%;
+    }
     .youDiv.media-mobile {
         display:block !important;
     }
-}*/
+    .row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
 
 @media (max-width: 400px) {
     #banner {
-        height: 500px;
+        height: 100%;
+        background-size: 200% auto;
     }
     #banner h1{
-       font-size: 16px;
+       font-size: 20px;
     }
     #banner .intro{
-        font-size: 10px;
+        font-size: 14px;
     }
     .text_display{
         font-size: 10px;
@@ -301,6 +310,10 @@ figure.floatcenter, .align-center {
     }
     .youDiv.media-mobile {
         display:block !important;
+    }
+    .row {
+        margin-right: 0px;
+        margin-left: 0px;
     }
 }
 

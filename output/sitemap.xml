@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://vinnyricciardi.github.io/</loc>
-<lastmod>2018-09-11T12:35:58-00:00</lastmod>
+<lastmod>2018-10-11T10:40:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://vinnyricciardi.github.io/archives.html</loc>
-<lastmod>2018-09-11T12:35:58-00:00</lastmod>
+<lastmod>2018-10-11T10:40:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://vinnyricciardi.github.io/tags.html</loc>
-<lastmod>2018-09-11T12:35:58-00:00</lastmod>
+<lastmod>2018-10-11T10:40:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://vinnyricciardi.github.io/categories.html</loc>
-<lastmod>2018-09-11T12:35:58-00:00</lastmod>
+<lastmod>2018-10-11T10:40:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -62,20 +62,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://vinnyricciardi.github.io/aboutme/bio/</loc>
 <lastmod>2018-01-20T00:00:00-05:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://vinnyricciardi.github.io/toolsntricks/crontab_tutorial/</loc>
-<lastmod>2018-01-17T00:00:00-05:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://vinnyricciardi.github.io/toolsntricks/scrapy_tutorial/</loc>
-<lastmod>2017-12-15T00:00:00-05:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -151,13 +137,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://vinnyricciardi.github.io/category/toolsntricks.html</loc>
-<lastmod>2018-01-17T00:00:00-05:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>https://vinnyricciardi.github.io/tags/bio.html</loc>
 <lastmod>2018-01-20T00:00:00-05:00</lastmod>
 <changefreq>daily</changefreq>
@@ -172,41 +151,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://vinnyricciardi.github.io/tags/interactive-apps.html</loc>
-<lastmod>2018-06-08T00:00:00-05:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://vinnyricciardi.github.io/tags/scraping.html</loc>
-<lastmod>2017-12-15T00:00:00-05:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://vinnyricciardi.github.io/tags/automation.html</loc>
-<lastmod>2018-01-17T00:00:00-05:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://vinnyricciardi.github.io/tags/project-description.html</loc>
-<lastmod>2018-06-08T00:00:00-05:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://vinnyricciardi.github.io/tags/webcrawling.html</loc>
-<lastmod>2017-12-15T00:00:00-05:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>https://vinnyricciardi.github.io/tags/news.html</loc>
 <lastmod>2017-11-27T09:31:00-05:00</lastmod>
 <changefreq>daily</changefreq>
@@ -214,8 +158,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://vinnyricciardi.github.io/tags/toolsntricks.html</loc>
-<lastmod>2018-01-17T00:00:00-05:00</lastmod>
+<loc>https://vinnyricciardi.github.io/tags/interactive-apps.html</loc>
+<lastmod>2018-06-08T00:00:00-05:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://vinnyricciardi.github.io/tags/project-description.html</loc>
+<lastmod>2018-06-08T00:00:00-05:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

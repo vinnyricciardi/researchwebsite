@@ -10,6 +10,19 @@
     }
 }
 
+@media (max-width: 500px) {
+    #banner {
+        background-position: right -50px;
+        background-size: 300% auto;
+        height: 100%;
+    }
+}
+
+/*#banner {
+  height: initial;
+}
+*/
+
 .img-thumbnail {
   background-color: transparent;
   border: transparent;
