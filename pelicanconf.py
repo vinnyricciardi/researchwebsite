@@ -169,7 +169,7 @@ MENUITEMS = [
     ('About Me', '/aboutme/bio/'),
     ('CV', '/aboutme/curriculumvitae/'),
     ('Research Projects', [
-        ('Farm Size', '/misc/Place_Holder/index.html'),   # '/smallholders/Farm_Size_Project/index.html'),
+        ('Farm Size', '/smallholders/Farm_Size_Project/index.html'),
         ('&nbsp&nbsp How much food do smallholders produce?', '/smallholders/Global_production/index.html'),
         # ('&nbsp&nbsp Systematic Review', '/misc/Place_Holder/index.html'),        # To be replaced with jupyter notebook
         # ('&nbsp&nbsp Climate Impacts', '/misc/Place_Holder/index.html'),          # To be replaced with jupyter notebook

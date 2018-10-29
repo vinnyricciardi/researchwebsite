@@ -58,12 +58,12 @@ table {
 		<td>Data Harmonization</td>
 	</tr>
 	<tr>
-		<td>Khmer (Basic)</td>
+		<td>Khmer (Beginner)</td>
 		<td>Bash</td>
 		<td>Geographic Information Systems (GIS)</td>
 	</tr>
 	<tr>
-		<td>Spanish (Basic)</td>
+		<td>Spanish (Beginner)</td>
 		<td>ENVI</td>
 		<td>Household Survey Design</td>
 	</tr>
@@ -105,29 +105,33 @@ table {
 ## PUBLICATIONS
 
 <hr size=6>
-<h4>Articles in Prep</h4>
-
-1. **Ricciardi, V.**, Ramankutty, N., Mehrabi, Z., Noack, F., Sidhu, B.. 2019. Are smallholders prepared for climate change? An assessment in India from 1966-2010 on the relationship of farm size, incomes, and micro-nutrient production amidst climate shocks. 
-2. **Ricciardi, V.**, Ramankutty, N., Mehrabi, Z., Wittman, H., James, D. 2018. Farm size, food security, and sustainability: A meta-analysis of empirical relationships in crop production systems. 
-3. Mehrabi, Z., **Ricciardi, V.**, McDowell, M., Ramankutty, N., 2018. Do the most vulnerable have access to internet and phones? A Global baseline for data-driven agronomy interventions.
-
-<br><br>
-
 <h2></h2>
 <h4>Articles in Refereed Journals</h4>
 
 1. McDowell, G.,  Huggle, C., Frey, H., Wang, F., **Ricciardi, V.**, Cramer, K. 2018. Adaptation action and research in glaciated mountain systems: Are they enough to meet the challenge of climate change? Global Environmental Change. In Press.
+
 2. **Ricciardi, V.**, Ramankutty, N., Mehrabi, Z., Jarvis, L., Chookolingo, B., 2018. How much of our world’s food do smallholders produce? Global Food Security. 17: 64-72.
+
 3. **Ricciardi, V.**, Ramankutty, N., Mehrabi, Z., Jarvis, L., Chookolingo, B., 2018. An open-access dataset of crop production by farm size from agricultural censuses and surveys. Data in Brief. 19: 1970-1988.
+
 4. Cohn, A., Newton, P., Gil, J., Kuhl, L., Samberg, L., **Ricciardi, V.**, Manly, J. R., and Northrop, S. 2017. Smallholder Agriculture and Climate Change. Annual Review of Environment and Resources, 42(1).
+
 5. Glenna, L., Borlu, Y., Gill, T., Larson, J., **Ricciardi, V.**, and Adam, R. 2017. Food Security, Sweet Potato Production, and Distance to Trade Centers in Northern Ghana. FACETS, 2(2): 919-936.
+
 6. Gill, T. B., **Ricciardi, V.**, Bates, R., James, D. 2017. Capacity Development in Agricultural Education and training in Cambodia: A SWOT Analysis. The Journal of Agricultural Education and Extension, 24(1): 34-51.
+
 7. Tschakert, P., **Ricciardi, V.**, Machado, M., Ferring, D., Smithwick, E. Hausermann, H., and Parker, E. 2016. Situated Knowledge of Pathogenic Landscapes in Ghana: Understanding the Emergence of Buruli ulcer through Qualitative Analysis. Social Science and Medicine, (150): 170-171.
+
 8. **Ricciardi, V.** 2015. Homophily as a Safety Net: Investigating When Smallholder Farmers Decide to Buy Hybrid Seed in Northern Ghana. IK: Other Ways of Knowing. 1(2): 65-97.
+
 9. **Ricciardi, V.** 2015. Social seed networks: identifying central farmers for equitable seed access. Agricultural Systems 139: 110-121.
+
 10. Wu, J., Tschakert, P., Klutse, E., Ferring, D., **Ricciardi, V.**, Hausermann, H., Oppong, J., Smithwick, E. A. 2015. Buruli Ulcer Disease and Its Association with Land Cover in Southwestern Ghana. PLoS Neglected Tropical Diseases, 9(6), e0003840.
+
 11. Gill, T. B., Bates, R., Bicksler, A., Burnette, R., **Ricciardi, V.**, Yoder, L. 2013. Strengthening Informal Seed Systems to Enhance Food Security in Southeast Asia. Journal of Agriculture, Food Systems, and Community Development 3(3): 139-153.
+
 12. Bates, R., Gill, T. B., Bicksler, A., Yoder, L., Burnette, R., and **Ricciardi, V.** 2013. Designing Strategies and Systems to Identify, Preserve and Promote Underutilized Indigenous Crop Species. Acta Horticulturae. 979: 569-576.
+
 13. Bicksler, A., Bates, R., Burnette, R., Gill, T. B., Yoder, L., **Ricciardi, V.** and Srigiofun, Y. 2012. Methodologies for strengthening informal indigenous vegetable seed systems in Northern Thailand and Cambodia. Acta Horticulturae 958: 67-74.
 
 <br><br>
@@ -177,34 +181,43 @@ Strengthening Indigenous Informal Seed Systems in Southeast Asia.
 1. **Ricciardi**, V., Ramankutty, N., Mehrabi, Z., Wittman, H., James, D. 2018.
   Systematic Review: Transition in Global Farm Size. SESYNC Boundary Spanning
   Symposium. Annapolis, MD, USA.
+  
 2. **Ricciardi, V.**, Ramankutty, N., Jarvis, L., Chookolingo, B., Wittman,
   H. 2017. How much of our world’s food do smallholders produce? Third
   International Conference on Global Food Security. Cape Town, South
   Africa.
+  
 3. **Ricciardi, V.**, Ramankutty, N. 2016. Yield stability and farm size:
   Investigating 40 years of variability in India’s rice production.
   Global Land Project. Beijing, China.
+  
 4. **Ricciardi, V.** 2016. Commentator. Workshop on Innovation, Precaution,
   and Sustainability. W. Maurice Young Centre for Applied Ethics:
   University of British Columbia. Vancouver, BC, Canada.
+  
 5. **Ricciardi, V.** 2016. Chair of Paper Session: Climate and Agriculture -
   Physical Geography. Association of American Geographers Annual
   Conference. San Francisco, CA, USA.
+  
 6. **Ricciardi, V.** 2016. Is crop production of India’s small farms more
   stable than large farms in response to climate variability? Paper Session: 
   Climate and Agriculture - Physical Geography. Association of American 
   Geographers Annual Conference. San Francisco, CA, USA.
+  
 7. Larson, J., Gill, T., Borlu, Y., **Ricciardi, V.**, Martey, E. 2014.
   “STOPS: Sustainable Technologies for Orange and Purple Sweet Potatoes
   in Ghana.” Annual USAID Innovation Lab Meeting. Tegucigalpa, Honduras.
+  
 8. **Ricciardi, V.** 2014. “Effects of crop introduction on informal seed
   systems in Northern Ghana: a social network approach.” Paper session:
   Culture, Agriculture and Tradition I: Species, Diversity and Local
   Knowledge. Association of American Geographers Annual Conference.
   Tampa, Florida, USA.
+  
 9. **Ricciardi, V.** 2014. “Effects of commercial crop introduction on
   informal seed systems: Northern Ghana.” Inter- institutional
   Consortium of Indigenous Knowledge. State College, PA, USA.
+  
 10. **Ricciardi, V.** 2013. “Agrobiodiversity conservation and food security
   in West Africa: Can we have both?” International Agricultural Speaker
   Series, Pennsylvania State University. State College, PA, USA.
