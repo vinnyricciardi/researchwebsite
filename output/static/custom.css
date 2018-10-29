@@ -3,7 +3,7 @@
 }
 /* Solutions for mobile and small screens  */
 
-@media (min-width: 1200px) {
+@media (min-width: 800px) {
     #banner {
         background-position: right -50px;
         background-size: 100% auto;
