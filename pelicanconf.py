@@ -170,12 +170,11 @@ MENUITEMS = [
     ('CV', '/aboutme/curriculumvitae/'),
     ('Research Projects', [
         ('Farm Size', '/smallholders/Global_production/index.html'), #'/smallholders/Farm_Size_Project/index.html'),  # finish slideshow before activating
-        ('&nbsp&nbsp How much food do smallholders produce?', '/smallholders/Global_production/index.html'),
-        # ('&nbsp&nbsp Systematic Review', '/misc/Place_Holder/index.html'),        # To be replaced with jupyter notebook
-        # ('&nbsp&nbsp Climate Impacts', '/misc/Place_Holder/index.html'),          # To be replaced with jupyter notebook
+        # ('&nbsp&nbsp How much food do smallholders produce?', '/smallholders/Global_production/index.html'),
+        # ('&nbsp&nbsp Meta-Analysis', '/misc/Place_Holder/index.html'),        # To be replaced with jupyter notebook
         # ('&nbsp&nbsp Public Support', '/misc/Place_Holder/index.html'),           # To be replaced with jupyter notebook
-        ('Mountain Farming', '/mtnadaptation/Mtn_Adaptation_Project/index.html'), 
-        ('&nbsp&nbsp Climate adaptation in mountains: Are they enough?', '/mtnadaptation/Mtn_Adaptation_Project/index.html')    
+        ('Mountain Farming', '/mtnadaptation/Mtn_Adaptation_Project/index.html'),
+        ('Land Grabs', '/landgrabs/Land_Policy_Project/index.html')    
         ]),
     # ('Tools and Tricks', '/category/toolsntricks.html'),
     ('News', '/news/news/index.html')

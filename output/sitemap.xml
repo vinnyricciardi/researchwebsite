@@ -5,28 +5,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://vinnyricciardi.github.io/</loc>
-<lastmod>2018-10-29T11:43:41-00:00</lastmod>
+<lastmod>2018-11-30T07:05:20-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://vinnyricciardi.github.io/archives.html</loc>
-<lastmod>2018-10-29T11:43:41-00:00</lastmod>
+<lastmod>2018-11-30T07:05:20-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://vinnyricciardi.github.io/tags.html</loc>
-<lastmod>2018-10-29T11:43:41-00:00</lastmod>
+<lastmod>2018-11-30T07:05:20-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://vinnyricciardi.github.io/categories.html</loc>
-<lastmod>2018-10-29T11:43:41-00:00</lastmod>
+<lastmod>2018-11-30T07:05:20-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://vinnyricciardi.github.io/landgrabs/Land_Policy_Project/</loc>
+<lastmod>2018-11-30T00:00:00-05:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -109,6 +116,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://vinnyricciardi.github.io/category/landgrabs.html</loc>
+<lastmod>2018-11-30T00:00:00-05:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://vinnyricciardi.github.io/category/misc.html</loc>
 <lastmod>2017-12-02T00:00:00-05:00</lastmod>
 <changefreq>daily</changefreq>
@@ -158,6 +172,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://vinnyricciardi.github.io/tags/project-description.html</loc>
+<lastmod>2018-11-30T00:00:00-05:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://vinnyricciardi.github.io/tags/interactive-apps.html</loc>
 <lastmod>2018-06-08T00:00:00-05:00</lastmod>
 <changefreq>daily</changefreq>
@@ -165,15 +186,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://vinnyricciardi.github.io/tags/project-description.html</loc>
-<lastmod>2018-06-08T00:00:00-05:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>https://vinnyricciardi.github.io/author/vinny-ricciardi.html</loc>
-<lastmod>2018-06-08T00:00:00-05:00</lastmod>
+<lastmod>2018-11-30T00:00:00-05:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
