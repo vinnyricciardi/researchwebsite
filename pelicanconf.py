@@ -174,9 +174,10 @@ MENUITEMS = [
         # ('&nbsp&nbsp Meta-Analysis', '/misc/Place_Holder/index.html'),        # To be replaced with jupyter notebook
         # ('&nbsp&nbsp Public Support', '/misc/Place_Holder/index.html'),           # To be replaced with jupyter notebook
         ('Mountain Farming', '/mtnadaptation/Mtn_Adaptation_Project/index.html'),
-        ('Land Grabs', '/landgrabs/Land_Policy_Project/index.html')    
+        ('Land Grabs', '/landgrabs/Land_Policy_Project/index.html'),
+        ('Colours of Food Security', '/coloursoffoodsecurity/Colours_of_Food_Security/index.html')    
         ]),
-    # ('Tools and Tricks', '/category/toolsntricks.html'),
+    # ('Tools and Tricks', '/category/toolsntricks.html')
     ('News', '/news/news/index.html')
     ]
 

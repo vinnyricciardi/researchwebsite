@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://vinnyricciardi.github.io/</loc>
-<lastmod>2018-11-30T08:12:24-00:00</lastmod>
+<lastmod>2018-11-30T10:04:14-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://vinnyricciardi.github.io/archives.html</loc>
-<lastmod>2018-11-30T08:12:24-00:00</lastmod>
+<lastmod>2018-11-30T10:04:14-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://vinnyricciardi.github.io/tags.html</loc>
-<lastmod>2018-11-30T08:12:24-00:00</lastmod>
+<lastmod>2018-11-30T10:04:14-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://vinnyricciardi.github.io/categories.html</loc>
-<lastmod>2018-11-30T08:12:24-00:00</lastmod>
+<lastmod>2018-11-30T10:04:14-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -34,6 +34,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://vinnyricciardi.github.io/landgrabs/Land_Policy_Project/</loc>
 <lastmod>2018-11-30T00:00:00-05:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://vinnyricciardi.github.io/coloursoffoodsecurity/Colours_of_Food_Security/</loc>
+<lastmod>2018-09-30T00:00:00-05:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -111,6 +118,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://vinnyricciardi.github.io/category/apps.html</loc>
 <lastmod>2018-06-08T00:00:00-05:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://vinnyricciardi.github.io/category/coloursoffoodsecurity.html</loc>
+<lastmod>2018-09-30T00:00:00-05:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
