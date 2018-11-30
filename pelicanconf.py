@@ -185,6 +185,7 @@ MARKUP = ('md', 'ipynb')
 
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['ipynb.markup', 
+           'ipynb.liquid',
            'i18n_subsites', 
            'simple_footnotes', 
            'feed_summary',
