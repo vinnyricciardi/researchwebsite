@@ -175,9 +175,10 @@ MENUITEMS = [
         # ('&nbsp&nbsp Public Support', '/misc/Place_Holder/index.html'),           # To be replaced with jupyter notebook
         ('Mountain Farming', '/mtnadaptation/Mtn_Adaptation_Project/index.html'),
         ('Land Grabs', '/landgrabs/Land_Policy_Project/index.html'),
+        ('Land Use Policy', '/landusepolicy/Land_Use_Policy_Project/index.html'),
         ('Colours of Food Security', '/coloursoffoodsecurity/Colours_of_Food_Security/index.html')    
         ]),
-    # ('Tools and Tricks', '/category/toolsntricks.html')
+    ('Tools and Tricks', '/category/toolsntricks.html'),
     ('News', '/news/news/index.html')
     ]
 
@@ -186,7 +187,7 @@ MARKUP = ('md', 'ipynb')
 
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['ipynb.markup', 
-           'ipynb.liquid',
+           # 'ipynb.liquid',
            'i18n_subsites', 
            'simple_footnotes', 
            'feed_summary',
@@ -195,7 +196,8 @@ PLUGINS = ['ipynb.markup',
            'sitemap',
            'photos']
 
-IPYNB_IGNORE_CSS = False
+IPYNB_SKIP_CSS = True
+IPYNB_FIX_CSS = True
 IGNORE_FILES = ['.ipynb_checkpoints']
 FEED_USE_SUMMARY = True
 SUMMARY_MAX_LENGTH = 100

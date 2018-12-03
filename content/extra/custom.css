@@ -102,6 +102,12 @@ p {
 }
 
 
+/* Ipython code blocks*/
+/*.input_area {
+  background-color: #35362f;
+  }*/
+
+
 /* Photo carousel - caption background color not working*/
 /*.carousel-caption {
  text-align: center;
