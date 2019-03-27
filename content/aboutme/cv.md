@@ -16,7 +16,11 @@ Summary: Curriculum Vitae
 </div>
 
 </div>
-<br><br>
+<br>
+
+(Borrow my [code](https://github.com/vinnyricciardi/researchwebsite/tree/master/content_prep/cv_sankey) to make your own interactive CV!)
+
+<br>
 
 ## EDUCATION
 <hr size=6>

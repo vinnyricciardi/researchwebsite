@@ -1,13 +1,3 @@
-# Get this figure: fig = py.get_figure("https://plot.ly/~vinnyricciardi/110/")
-# Get this figure's data: data = py.get_figure("https://plot.ly/~vinnyricciardi/110/").get_data()
-# Add data to this figure: py.plot(Data([Scatter(x=[1, 2], y=[2, 3])]), filename ="plot from API (10)", fileopt="extend")
-
-# Get figure documentation: https://plot.ly/python/get-requests/
-# Add data documentation: https://plot.ly/python/file-options/
-
-# If you're using unicode in your file, you may need to specify the encoding.
-# You can reproduce this figure in Python with the following code!
-
 # Learn about API authentication here: https://plot.ly/python/getting-started
 # Find your api_key here: https://plot.ly/settings/api
 
@@ -18,7 +8,7 @@ import pandas as pd
 df_links = pd.read_csv("cv_sankey_links.csv")
 df_nodes = pd.read_csv("cv_sankey_nodes.csv")
 
-py.sign_in('vinnyricciardi', 'LCmEx0i7Krj9FxmfgnXE')
+py.sign_in('ID', 'API KEY')
 
 trace1 = {
   "domain": {
