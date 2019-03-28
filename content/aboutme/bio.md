@@ -32,4 +32,8 @@ When I'm not working, you can usually find me unicycling, mt. biking, cooking, o
 </div>
 
 </div>
-<br><br>
+<br>
+
+(Borrow my [code](https://github.com/vinnyricciardi/researchwebsite/tree/master/content_prep/cv_sankey) to make your own interactive CV!)
+
+<br>
