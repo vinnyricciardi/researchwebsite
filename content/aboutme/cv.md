@@ -17,9 +17,9 @@ Summary: Curriculum Vitae
 
 </div>
 <br>
-
+<br>
 (Borrow my [code](https://github.com/vinnyricciardi/researchwebsite/tree/master/content_prep/cv_sankey) to make your own interactive CV!)
-
+<br>
 <br>
 
 ## EDUCATION
