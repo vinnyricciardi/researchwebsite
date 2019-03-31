@@ -169,7 +169,7 @@
 <p>To make this work we use Python 3.5.2, Scrapy 1.4.0, and Pandas&nbsp;0.21.0.</p>
 <p>The basic steps to scrape this site are we&#8217;re going to grab the html elements out of the source code using the html tags (such as <code>div</code> tags, <code>h2</code> tags, <code>p</code> tags, and a few more). Then we&#8217;ll store it in a Pandas dataframe, iterate to the next article in the list, store it and so on until we reach the end of the page. Then we&#8217;ll have our spider crawl to the next page and repeat. Once our spider hits the last page, it will output the Pandas dataframe into an easy to analyze&nbsp;csv.</p>
 <p>To begin, we&#8217;ll take an in depth look at EKurd&#8217;s news webpage. It contains a list of articles with their publication date, headline title, brief description, and the url link to the actual article. At the bottom of the webpage there are one of those next page navigation buttons (see pic below) that will let you navigate to all 1300+ pages with the same type of&nbsp;information.</p>
-<p><img src="../../images/next_nav.png" alt="Drawing" style="width: 700px;"/></p>
+<p><img src="{filename}/images/next_nav.png" alt="Drawing" style="width: 700px;"/></p>
 <p>That&#8217;s a lot of news! With Scrapy, we automate all this so we can use this data in more interesting ways such as sentiment analysis and other types of text classification (stay tuned for a later&nbsp;post).</p>
 
 </div>
@@ -188,7 +188,7 @@
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Navigate to where Ekurd keeps their <a href="http://ekurd.net/all-news">news archive</a>, right click on the first headline you see and click &#8216;Inspect Element&#8217; if using Firefox - most browsers have a similar feature. See the screenshot below for reference.<br><br></p>
-<p><img src="../../images/dev_console.png" alt="Drawing" style="width: 100%;"/></p>
+<p><img src="{filename}/images/dev_console.png" alt="Drawing" style="width: 100%;"/></p>
 
 </div>
 </div>
@@ -198,7 +198,7 @@
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>If you look in the development console you can see that each articles&#8217; content (e.g., title, description, date published, and url) are listed under the div tag with the id set as &#8216;Content.&#8217; Here&#8217;s a screen shot of all the articles on this page neatly organized under the content <code>div</code> tag. We can see the first article is the one we right clicked on (note, when you right click on the article and inspect element, it will be expanded - I just wanted to show you the html hierarchy its embedded in).
 <br></p>
-<p><img src="../../images/div_tag.png" alt="Drawing" style="width: 100%;"/></p>
+<p><img src="{filename}/images/div_tag.png" alt="Drawing" style="width: 100%;"/></p>
 
 </div>
 </div>
@@ -207,7 +207,7 @@
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>We are going to look at the first article in the list to see how it&#8217;s structured. When you right clicked on the article title and opened the development console it should have expanded the article tag for the first article to look like&nbsp;this.</p>
-<p><img src="../../images/article_tag.png" alt="Drawing" style="width: 100%;"/></p>
+<p><img src="{filename}/images/article_tag.png" alt="Drawing" style="width: 100%;"/></p>
 
 </div>
 </div>
@@ -437,7 +437,7 @@ We can do this by defining an empty dataframe when we initialize the spider alon
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Now you have a fully functioning spider! But it only scrapes the first page. We need it to iterate through all those next buttons to grab the entire&nbsp;database.</p>
 <p>Right click on the next button at the bottom of the page. For this site, the next button looks like two carets <code>&gt;&gt;</code>.</p>
-<p><img src="../../images/next_nav.png" alt="Drawing" style="width: 700px;"/></p>
+<p><img src="{filename}/images/next_nav.png" alt="Drawing" style="width: 700px;"/></p>
 <p>We can see in the source code that the next button is defined in an a tag where the class equals <code>nextpostslink</code>. To use this info we can set a variable <code>NEXT_PAGE_SELECTOR</code> to grab the&nbsp;link.</p>
 
 </div>
