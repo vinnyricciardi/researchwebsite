@@ -57,6 +57,7 @@ LINKS = (
     ('Liu Institute for Global Issues', 'http://liu.arts.ubc.ca/'),
     ('Public Scholars Initiative', 'https://www.grad.ubc.ca/psi'),
     ('Aleph Policy Iniative', 'http://alephpolicy.org/'),
+    ('Ceres2030', 'https://ceres2030.org/')
          )
          
 # Social widget
