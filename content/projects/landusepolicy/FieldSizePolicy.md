@@ -6,7 +6,7 @@ Tags: Project Description
 Author: Vinny Ricciardi
 Summary:
 
-## Land Use Policy and Field Size 
+## A look at farms across country borders 
 
 I've been fascinated with looking at countries borders. Agricultural land-use polices, a countries natural resources access, and/or its connection to  international markets can drastically affect the size of a field. Here is a little Arc Story Map I made to highlight a few interesting border regions.
 

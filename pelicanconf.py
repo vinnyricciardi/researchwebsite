@@ -25,14 +25,14 @@ SITENAME = u'DISHING DATA'
 # data4food
 
 HIDE_SITENAME = True
-SITESUBTITLE = u'bridging data science & food security'
+SITESUBTITLE = u'bridging data science & sustainability'
 # HOMEPAGE_IMG_TXT = "What if we had multiple natural disasters at once - how would it affect our food system?<br/>This map shows synchrony of natural disasters over the last 100 years."
 HOMEPAGE_IMG_TXT = """
-This site shares my research on our <br/>
-global food system 
+This site shares my research on<br/>
+global environmental change 
 """
-#  <br/>
-# and tech tips I run into while tinkering with code.
+
+
 
 SITEURL = 'https://vinnyricciardi.github.io/'
 PATH = 'content/'
@@ -90,7 +90,7 @@ YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
 ################## Add custom css #########################
 TYPOGRIFY = True
 STATIC_PATHS = ['images', 'extra']
-STATIC_EXCLUDE_SOURCES = False
+STATIC_EXCLUDE_SOURCES = True
 
 EXTRA_PATH_METADATA = {'extra/custom.css':    {'path':'static/custom.css'},
                        'extra/href_scroll.js':{'path':'theme/js/href_scroll.js'},
@@ -115,9 +115,9 @@ AVATAR = 'images/headshot.png'
 BANNER = 'images/banner.jpg'
 
 ABOUT_ME = """
-            Vinny Ricciardi is a PhD Candidate of<br>
-            Resource Management & Environmental Studies<br>
-            at the University of British Columbia.<br><br>
+            Vinny Ricciardi is an environmental data scientist at the World Bank.
+            He holds a PhD in Resource Management & Environmental Studies
+            from the University of British Columbia.<br><br>
             """
 
 
@@ -161,28 +161,26 @@ DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 
 MENUITEMS = [
-    # ('About', [
-    #     ('Dishing Data', '/aboutme/aboutdishingdata/'),
-    #     ('About Me', '/aboutme/bio/'),
-    #     ('Curriculum Vitae', '/aboutme/curriculumvitae/'),
-    #     ('Email', 'mailto: vinnyricciardi@gmail.com'),
-    #     ]),
-    ('About Me', '/aboutme/bio/'),
-    ('CV', '/aboutme/curriculumvitae/'),
-    ('Research Projects', [
-        ('Farm Size', '/smallholders/Global_production/index.html'), #'/smallholders/Farm_Size_Project/index.html'),  # finish slideshow before activating
-        ('SDG 2.3 - Zero Hunger', '/smallholders/RuLIS_Project/index.html'),
-        # ('&nbsp&nbsp How much food do smallholders produce?', '/smallholders/Global_production/index.html'),
-        # ('&nbsp&nbsp Meta-Analysis', '/misc/Place_Holder/index.html'),        # To be replaced with jupyter notebook
-        # ('&nbsp&nbsp Public Support', '/misc/Place_Holder/index.html'),           # To be replaced with jupyter notebook
-        ('Mountain Farming', '/mtnadaptation/Mtn_Adaptation_Project/index.html'),
-        ('Land Grabs', '/landgrabs/Land_Policy_Project/index.html'),
-        ('Land Use Policy', '/landusepolicy/Land_Use_Policy_Project/index.html'),
-        ('Colours of Food Security', '/coloursoffoodsecurity/Colours_of_Food_Security/index.html')    
+    ('Bio', '/aboutme/bio/'),
+    ('Resumé', '/aboutme/curriculumvitae/'),
+    ('Research', [
+        ('Climate Change', '/misc/Place_Holder/index.html'),
+        ('Food Systems', '/misc/Place_Holder/index.html'),
+        ('Open Data', '/misc/Place_Holder/index.html')
         ]),
-    ('Tools and Tricks', '/category/toolsntricks.html'),
-    ('News', '/news/news/index.html')
-    ]
+    ('Data Viz & Blogs', [
+        ('An atals of global food issues', '/coloursoffoodsecurity/Colours_of_Food_Security/index.html'),
+        ('Adapting to climate change in the mountains', '/mtnadaptation/Mtn_Adaptation_Project/index.html'),
+        ('Combating a zombie statistic: can small farms feed the world?', '/smallholders/Global_production/index.html'),
+        ('Small farms grow a large portion of the world’s food', 'https://medium.com/the-nature-of-food/small-farms-grow-a-large-portion-of-the-worlds-food-59ed07019a9'),
+        ('Use the news: where land grabs are occurring according to the news', '/landgrabs/Land_Policy_Project/index.html'),
+        ('A look at farms across country borders', '/landusepolicy/Land_Use_Policy_Project/index.html'),
+        ('Scientists should be science communicators', 'https://www.aaas.org/programs/center-public-engagement-science-and-technology/reflections/scientists-should-be-science'),
+        ('Are cell phones becoming more popular than toilets?', 'https://blogs.worldbank.org/opendata/are-cell-phones-becoming-more-popular-toilets'),
+        ('Water subsidies mostly benefit the wealthy', 'https://blogs.worldbank.org/opendata/water-subsidies-mostly-benefit-wealthy'),
+        ('Sustainable Development Goals Atlas', '/misc/Place_Holder/index.html'),
+    ])
+]
 
 ############################ Plugins ######################################
 MARKUP = ('md', 'ipynb')
@@ -223,8 +221,8 @@ SITEMAP = {
 }
 
 ############################ Photo Galleries ######################################
-PHOTO_LIBRARY = 'galleries/'
-PHOTO_GALLERY = (3000, 2000, 300)
+# PHOTO_LIBRARY = 'galleries/'
+# PHOTO_GALLERY = (3000, 2000, 300)
 
 
 ############################ Analytics ######################################
@@ -233,5 +231,6 @@ GOOGLE_ANALYTICS = 'UA-112689863-1'
 
 ############################ Static Paths Not to Render ######################################
 STATIC_PATHS = [
-    'portfolio',
+    # 'portfolio',
+    'images'
 ]

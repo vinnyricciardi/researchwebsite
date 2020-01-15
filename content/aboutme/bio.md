@@ -10,20 +10,15 @@ Summary: Bio
 <hr size=6>
 <br>
 
-I am a Ph.D. candidate in Resource Management and Environmental Studies at the University of British Columbia ([UBC](ires.ubc.ca/)) working with [Dr. Navin Ramankutty.](http://ires.ubc.ca/person/navin-ramankutty/)<br><br>
-Through my research, I use [data science techniques](https://vinnyricciardi.github.io/aboutme/curriculumvitae/) to provide robust statistics about our global food system that hopefully will inform policy decisions and monitoring.
+Field scientist turned data scientist with a knack for sustainability. Keen interest in communicating data insights to decision makers and the general public. Fast learner with strong quantitative skillsets. 
 <br><br>
-Currently, I am interested in synthesizing our scientific knowledge to better understand the role of 
-small-scale food producers ([smallholders](http://localhost:8000/smallholders/Global_production/index.html)) in our global food system. My interests in our food system stems from growing up running around the little farms in rural New England and my past on-the-ground and often community based work with farmers and the urban hungry. 
+My training in geography (MSc), resource management and environmental studies (PhD) has enabled me to work throughout the data pipeline. For the past nine years, I have collected primary field data, compiled and managed global-scale databases, led analyses for a wide range of stakeholders and published in high-impact academic journals.
 <br><br>
-For the past eight years, I was a research consultant with government ministries, NGOs, and universities throughout Southeast Asia, Ghana, and India on agricultural development issues. My work has been funded through organizations such as USAID, 
-the World Bank, the National Science Foundation, and the Social Sciences and Humanities Research Council 
-(SSHRC) of Canada. In 2014, I received an M.Sc. in Geography from the Pennsylvania State University 
-working with [Dr. Petra Tschakert.](http://www.web.uwa.edu.au/person/petra.tschakert)
+Projects have focused on text-analysis, inferential statistics, machine learning, spatial analysis, and meta-analyses. I am well-versed in R (7 yrs) and Python (4 yrs) but like to tinker in JavaScript and HTML. Proponent of open-source code, tools, and systems. 
 <br><br>
 When I'm not working, you can usually find me unicycling, mt. biking, cooking, or wandering the woods with my awesome partner Page and our pup Ralph.<br><br>
 
-##### [Check out my CV (Resumé) page](https://vinnyricciardi.github.io/aboutme/curriculumvitae/) and [download it here!]({filename}/images/CV_uptodate.pdf)<br><br> Or check out this interactive CV I made with Plotly and Python:
+##### [Check out my resumé page](https://vinnyricciardi.github.io/aboutme/curriculumvitae/) and [download it here!]({filename}/images/CV_uptodate.pdf)<br><br> Or check out this interactive resumé I made with Plotly and Python:
 <hr size=6>
 <div class="embed-responsive">
 	<div>

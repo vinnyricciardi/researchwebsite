@@ -6,7 +6,7 @@ Tags: Project Description
 Author: Vinny Ricciardi
 Summary:
 
-## Mapping Global Land Reform and Tenure News
+## Use the news: where land grabs are occurring according to the news
 
 <br><br>
 

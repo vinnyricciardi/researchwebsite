@@ -8,7 +8,7 @@ Summary: Curriculum Vitae
 
 ## Where & How I Work
 <hr size=6>
-#### [Download complete CV]({filename}/images/CV_uptodate.pdf)
+#### Download resumé - [short](/images/CV_uptodate.pdf) or [long](/images/CV_uptodate_long.pdf) version
 <div class="embed-responsive">
 	<div>
     <a href="https://plot.ly/~vinnyricciardi/150/?share_key=jQ7K5cw58pWkg3XLbGYC4V" target="_blank" title="CV_Sankey" style="display: block; text-align: center;"><img src="https://plot.ly/~vinnyricciardi/150.png?share_key=jQ7K5cw58pWkg3XLbGYC4V" alt="CV_Sankey" style="max-height:50%; height: 500px; height ="500" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
@@ -20,210 +20,143 @@ Summary: Curriculum Vitae
 <br>
 (Borrow my [code](https://github.com/vinnyricciardi/researchwebsite/tree/master/content_prep/cv_sankey) to make your own interactive CV!)
 <br>
-<br>
+<br><br>
+#### **EDUCATION**
+---
 
-## EDUCATION
-<hr size=6>
+ **PhD in Resource Management & Environmental Studies**, University of British Columbia, 2019
 
-#### 2015 – Present
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PhD Candidate, Resource Management & Environmental Studies<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University of British Columbia<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Advisor: Dr. Navin Ramankutty<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Committee Members: Dr. Hannah Wittman, Dr. Milind Kandlikar<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Funded through: UBC 4 Year Doctoral Fellowship & SSHRC Insight Grant (#435-2016-0154)<br><br>
+**MSc in Geography**, Pennsylvania State University, 2014
 
-#### 2012 – 2014
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MSc, Geography<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pennsylvania State University<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Advisor: Dr. Petra Tschakert<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Committee Members: Dr. Karl Zimmerer, Dr. Thomas Gill, Dr. Doug Miller<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Funded through: National Science Foundation, CNH Program (CNH#0909447)<br><br>
-
-#### 2005 – 2009
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BA, Psychology (Coursework in Environmental & Development Studies)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kalamazoo College<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Advisor: Dr. Robert Grossman<br><br>
-
-#### 2007 – 2008
-######  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Field research program<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;International Sustainable Development Institute, Thailand<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Training in forest transects, agroecosystem surveying, and community surveying<br>
-<br>
-
-## TECHNICAL & LANGUAGE SKILLS
-<hr size=6>
-<style>
-td, tr, th {
-    border: 0px solid black;
-    padding: 0px;
-}
-table { 
-    border-spacing: 20px 0px;
-    border-collapse: separate;
-}
-</style>
-<table style="width:100%">
-	<tr>
-		<th>Languages</th>
-		<th>Software</th>
-		<th>Technical</th>
-	</tr>
-	<tr>
-		<td>Thai (Proficient)</td>
-		<td>ArcGIS</td>
-		<td>Data Harmonization</td>
-	</tr>
-	<tr>
-		<td>Khmer (Beginner)</td>
-		<td>Bash</td>
-		<td>Geographic Information Systems (GIS)</td>
-	</tr>
-	<tr>
-		<td>Spanish (Beginner)</td>
-		<td>ENVI</td>
-		<td>Household Survey Design</td>
-	</tr>
-	<tr>
-		<td></td>
-		<td>GeoDa</td>
-		<td>Monitoring and Evaluation</td>
-	</tr>
-	<tr>
-		<td></td>
-		<td>Matlab</td>
-		<td>Machine Learning</td>
-	</tr>
-	<tr>
-		<td></td>
-		<td>Python</td>
-		<td>Remote Sensing</td>
-	</tr>
-	<tr>
-		<td></td>
-		<td>QGIS</td>
-		<td>Resource Surveying (forest survey, crop seed trials)</td>
-	</tr>
-	<tr>
-		<td></td>
-		<td>R</td>
-		<td>Statistical Analyses (incl. Network and Spatial)</td>
-	</tr>
-	<tr>
-		<td></td>
-		<td>SPSS</td>
-		<td>Web Apps for Data Science Communication*</td>
-	</tr>
-</table> 
-<br>
-*\*I created this website in Python and customized css, html, and markdown using [Pelican](http://docs.getpelican.com/en/stable/)*
-<br>
-
-## PUBLICATIONS
-
-<hr size=6>
-<h2></h2>
-<h4>Articles in Refereed Journals</h4>
-
-1. McDowell, G.,  Huggle, C., Frey, H., Wang, F., **Ricciardi, V.**, Cramer, K. 2018. Adaptation action and research in glaciated mountain systems: Are they enough to meet the challenge of climate change? Global Environmental Change. In Press.
-
-2. **Ricciardi, V.**, Ramankutty, N., Mehrabi, Z., Jarvis, L., Chookolingo, B., 2018. How much of our world’s food do smallholders produce? Global Food Security. 17: 64-72.
-
-3. **Ricciardi, V.**, Ramankutty, N., Mehrabi, Z., Jarvis, L., Chookolingo, B., 2018. An open-access dataset of crop production by farm size from agricultural censuses and surveys. Data in Brief. 19: 1970-1988.
-
-4. Cohn, A., Newton, P., Gil, J., Kuhl, L., Samberg, L., **Ricciardi, V.**, Manly, J. R., and Northrop, S. 2017. Smallholder Agriculture and Climate Change. Annual Review of Environment and Resources, 42(1).
-
-5. Glenna, L., Borlu, Y., Gill, T., Larson, J., **Ricciardi, V.**, and Adam, R. 2017. Food Security, Sweet Potato Production, and Distance to Trade Centers in Northern Ghana. FACETS, 2(2): 919-936.
-
-6. Gill, T. B., **Ricciardi, V.**, Bates, R., James, D. 2017. Capacity Development in Agricultural Education and training in Cambodia: A SWOT Analysis. The Journal of Agricultural Education and Extension, 24(1): 34-51.
-
-7. Tschakert, P., **Ricciardi, V.**, Machado, M., Ferring, D., Smithwick, E. Hausermann, H., and Parker, E. 2016. Situated Knowledge of Pathogenic Landscapes in Ghana: Understanding the Emergence of Buruli ulcer through Qualitative Analysis. Social Science and Medicine, (150): 170-171.
-
-8. **Ricciardi, V.** 2015. Homophily as a Safety Net: Investigating When Smallholder Farmers Decide to Buy Hybrid Seed in Northern Ghana. IK: Other Ways of Knowing. 1(2): 65-97.
-
-9. **Ricciardi, V.** 2015. Social seed networks: identifying central farmers for equitable seed access. Agricultural Systems 139: 110-121.
-
-10. Wu, J., Tschakert, P., Klutse, E., Ferring, D., **Ricciardi, V.**, Hausermann, H., Oppong, J., Smithwick, E. A. 2015. Buruli Ulcer Disease and Its Association with Land Cover in Southwestern Ghana. PLoS Neglected Tropical Diseases, 9(6), e0003840.
-
-11. Gill, T. B., Bates, R., Bicksler, A., Burnette, R., **Ricciardi, V.**, Yoder, L. 2013. Strengthening Informal Seed Systems to Enhance Food Security in Southeast Asia. Journal of Agriculture, Food Systems, and Community Development 3(3): 139-153.
-
-12. Bates, R., Gill, T. B., Bicksler, A., Yoder, L., Burnette, R., and **Ricciardi, V.** 2013. Designing Strategies and Systems to Identify, Preserve and Promote Underutilized Indigenous Crop Species. Acta Horticulturae. 979: 569-576.
-
-13. Bicksler, A., Bates, R., Burnette, R., Gill, T. B., Yoder, L., **Ricciardi, V.** and Srigiofun, Y. 2012. Methodologies for strengthening informal indigenous vegetable seed systems in Northern Thailand and Cambodia. Acta Horticulturae 958: 67-74.
+**BA in Psychology,** Kalamazoo College, 2009
 
 <br><br>
-<h2></h2>
-<h4>Non-Refereed Publications and Reports to Sponsors</h4>
 
-1. **Ricciardi, V.** 2015. Project Documentation Report: Scaling-Up
-Productive Water Through Micro-Irrigation Technologies. iDE Vietnam.
-Project supported by the Swiss Agency for Development & Cooperation
-(SDC).
+#### **SKILLS**
+---
 
-2. **Ricciardi, V.** 2015. Latrine Business Owners to Customer Sales Network
-in Rural Cambodia: 2012-2014; Supply Chain Management Geographical
-Atlas. iDE Sanitation Marketing Scale-Up (SMSU) 2.0. Project supported
-by the World Bank’s Water and Sanitation Program (WSP).
-
-3. **Ricciardi, V.** 2015. Toilet Sales and Access to Sanitation in Rural
-Cambodia; Geographical Atlas. iDE Sanitation Marketing Scale-Up (SMSU)
-1.0. Project supported by the World Bank’s Water and Sanitation
-Program (WSP).
-
-4. **Ricciardi, V.**, R. Bates, T. Gill. 2014. Report for InnovATE scoping
-visit, Cambodia. USAID Subcontract report. InnovATE in Cambodia.
-
-5. **Ricciardi, V.**, Borlu, Y., Gill, T. 2014. Fact-sheet: Sweet potato seed
-system in northern Ghana. USAID Horticultural CRISP report.
-Sustainable Technology for Orange and Purple Sweet potato (STOPS) in
-Ghana.
-
-6. Borlu, Y., **Ricciardi, V.** 2014. Fact-sheet: Perceptions and attitudes
-towards sweet potatoes in northern Ghana. USAID Horticultural CRSP
-report. Sustainable Technology for Orange and Purple Sweet potato
-(STOPS) in Ghana.
-
-7. Meitzner Yoder, L. and **Ricciardi, V.** January 2012. Seed fairs:
-Fostering local seed exchange to support regional biodiversity. Echo
-Asia Notes.
-
-8. Bicksler, A., Burnette, R., **Ricciardi, V.** Bell, M., Shapland, P. 2011.
-Seed germination cabinet. USAID Horticultural CRSP fact sheet.
-Strengthening Indigenous Informal Seed Systems in Southeast Asia.
+R (7 years), Python (5 years), Bash/Unix (4 years)<br>
+Inferential Statistics, Geographic Information Systems (GIS) - Spatial Analysis, <br>
+Machine Learning, Natural Language Processing (NLP), Network Analysis
 
 <br><br>
-<h2></h2>
-<h4>CONFERENCE PRESENTATIONS</h4>
 
-1. **Ricciardi**, V., Ramankutty, N., Mehrabi, Z., Wittman, H., James, D. 2018.
-  Systematic Review: Transition in Global Farm Size. SESYNC Boundary Spanning
-  Symposium. Annapolis, MD, USA.
-  
-2. **Ricciardi, V.**, Ramankutty, N., Jarvis, L., Chookolingo, B., Wittman,
-  H. 2017. How much of our world’s food do smallholders produce? Third
-  International Conference on Global Food Security. Cape Town, South
-  Africa.
-  
-3. **Ricciardi, V.**, Ramankutty, N. 2016. Yield stability and farm size:
-  Investigating 40 years of variability in India’s rice production.
-  Global Land Project. Beijing, China.
-  
-4. **Ricciardi, V.** 2016. Commentator. Workshop on Innovation, Precaution,
-  and Sustainability. W. Maurice Young Centre for Applied Ethics:
-  University of British Columbia. Vancouver, BC, Canada.
-  
-5. **Ricciardi, V.** 2016. Chair of Paper Session: Climate and Agriculture -
-  Physical Geography. Association of American Geographers Annual
-  Conference. San Francisco, CA, USA.
-  
-6. **Ricciardi, V.** 2016. Is crop production of India’s small farms more
-  stable than large farms in response to climate variability? Paper Session: 
-  Climate and Agriculture - Physical Geography. Association of American 
-  Geographers Annual Conference. San Francisco, CA, USA.
-  
-7. Larson, J., Gill, T., Borlu, Y., **Ricciardi, V.**, Martey, E. 2014.
-  “STOPS: Sustainable Technologies for Orange and Purple Sweet Potatoes
-  in Ghana.” Annual USAID Innovation Lab Meeting. Tegucigalpa, Honduras.
-  
-8. **Ricciardi, V.** 2014. “Effects of crop introduction on informal seed
-  systems in Northern Ghana: a social network approach.” Paper session:
-  Culture, Agriculture and Tradition I: Species, Diversity and Local
-  Knowledge. Association of American Geographers Annual Conference.
-  Tampa, Florida, USA.
-  
-9. **Ricciardi, V.** 2014. “Effects of commercial crop introduction on
-  informal seed systems: Northern Ghana.” Inter- institutional
-  Consortium of Indigenous Knowledge. State College, PA, USA.
-  
-10. **Ricciardi, V.** 2013. “Agrobiodiversity conservation and food security
-  in West Africa: Can we have both?” International Agricultural Speaker
-  Series, Pennsylvania State University. State College, PA, USA.
+#### **EMPLOYMENT**
+---
+
+2019 – Present<br><br>
+**Jr Data Scientist,** World Bank
+
+- *Data scientist for high-impact data communication publications*
+- Lead author for chapter in flagship report with over 1 million downloads per year (World Development Report)
+- Curated open-access environmental database with over 120k visitors a year (World Development Indicators)
+- Lead environmental scientist for data journalism and visualization project (Sustainable Development Goals Atlas)
+
+<br>
+2015 – 2019<br><br>
+**PhD Student & Research Assistant,** University of British Columbia
+
+- *10 publications in 4 years. 3 are in the top 5% of most discussed out of 14 million ranked on Altmetrics*
+- Gates Foundation: Led team to build NLP models to automate meta-analysis
+- United Nations FAO: Built mixed models to validate a dataset of over 3 million farmers
+- CGIAR Big Data Platform: Spatially modeled a global baseline on farmer cell phone use
+- Canada Research Grant (SSHRC): Led team to harmonize agricultural data from 55 countries
+
+<br>
+2010 – 2015 <br><br>
+**Independent Consultant,** Cambodia, Ghana, Thailand, Vietnam 
+
+- *Led field research teams. Communicated project impacts to ministry members and funders*
+- USAID Subcontract Value chain assessment for sweet potatoes
+- USAID Subcontract Needs assessment for national agriculture education centers
+- iDE Spatial analyses for program assessments
+- ECHO Asia Led field work and germination trials on indigenous crops species
+
+<br>
+2007, 2012 - 2014<br><br>
+**Research Assistant**
+
+- *5 publications in 3 years*
+-  Pennsylvania State University: Modeled land-use and disease outbreak in Ghana
+- Massachusetts Institute of Technology: Collated material for neuroscience study
+
+<br><br>
+
+#### **SELECTED PUBLICATIONS**
+---
+
+1.  **Ricciardi**, V., Ramankutty, N., Mehrabi, Z., Wittman, H., James, D. Smaller farms are consistently higher yielding and more biodiverse than large farms: A meta-analysis. Nature Sustainability. *In Review*.
+
+1.  Mehrabi, Z., **Ricciardi**, V., Levers, C., McDowell, M. The global digital divide in data-driven agriculture. Science Advances. *In Review.*
+
+1.  Ramankutty, N., **Ricciardi**, V., Mehrabi, Z., Seufert, V. 2019.
+    Trade-offs in the performance of alternative farming systems.
+    Agricultural Economics. *In Press.*
+
+1.  Khoury, D., Kisel, Y., Kantar, M., Barber, E., **Ricciardi**, V.,
+    Klirs, C., Kucera, L., Mehrabi, Z., Johnson, N., Klabin, S. and
+    Valiño, Á., 2019. Science–graphic art partnerships to increase
+    research impact. Nature Communications Biology, 2(1): 1-5.
+
+1.  McDowell, G., Huggle, C., Frey, H., Wang, F., **Ricciardi**, V.,
+    Cramer, K. 2018. Adaptation action and research in glaciated
+    mountain systems: Are they enough to meet the challenge of climate
+    change? Global Environmental Change. 54: 19-30.
+
+1.  **Ricciardi**, V., Ramankutty, N., Mehrabi, Z., Jarvis, L.,
+    Chookolingo, B. 2018. How much of our world’s food do smallholders
+    produce? Global Food Security, 17: 64-72.
+
+1.  **Ricciardi**, V., Ramankutty, N., Mehrabi, Z., Jarvis, L.,
+    Chookolingo, B. 2018. An open-access dataset of crop production by
+    farm size from agricultural censuses and surveys. Data in Brief, 19:
+    1970-1988.
+
+1.  Cohn, A., Newton, P., Gil, J., Kuhl, L., Samberg, L., **Ricciardi**,
+    V., Manly, J. R., Northrop, S. 2017. Smallholder agriculture and
+    climate change. Annual Review of Environment and Resources, 42(1).
+
+1.  Glenna, L., Borlu, Y., Gill, T., Larson, J., **Ricciardi**, V.,
+    Adam, R. 2017. Food security, sweet potato production, and proximity
+    to markets in northern Ghana. FACETS, 2(2): 919-936.
+
+1.  Gill, T. B., **Ricciardi**, V., Bates, R., James, D. 2017. Capacity
+   development in agricultural education and training in Cambodia: a
+   SWOT analysis. The Journal of Agricultural Education and Extension,
+   24(1): 34-51.
+
+1.  Tschakert, P., **Ricciardi**, V., Machado, M., Ferring, D.,
+    Smithwick, E. Hausermann, H., Parker, E. 2016. Situated knowledge of
+    pathogenic landscapes in Ghana: understanding the emergence of
+    Buruli ulcer through qualitative analysis. Social Science and
+    Medicine, (150): 170-171.
+
+1.  **Ricciardi**, V. 2015. Homophily as a Safety Net: Investigating
+    when smallholder farmers decide to buy hybrid seed in northern
+    Ghana. IK: Other Ways of Knowing, 1(2): 65-97.
+
+1.  **Ricciardi**, V. 2015. Social seed networks: identifying central
+    farmers for equitable seed access. Agri. Systems, 139: 110-121.
+
+1.  Wu, J., Tschakert, P., Klutse, E., Ferring, D., **Ricciardi**, V.,
+    Hausermann, H., Oppong, J., Smithwick, E. A. 2015. Buruli ulcer
+    disease and its association with land cover in southwestern Ghana.
+    PLoS Neglected Tropical Diseases, 9(6): e0003840.
+
+1.  Gill, T. B., Bates, R., Bicksler, A., Burnette, R., **Ricciardi**,
+    V., Yoder, L. 2013. Strengthening informal seed systems to enhance
+    food security in Southeast Asia. Journal of Agriculture, Food
+    Systems, and Community Development, 3(3): 139-153.
+
+1.  Bates, R., Gill, T. B., Bicksler, A., Yoder, L., Burnette, R., and
+    **Ricciardi**, V. 2013. Designing strategies and systems to
+    identify, preserve and promote underutilized indigenous crop
+    species. Acta Horticulturae, 979: 569-576.
+
+1.  Bicksler, A., Bates, R., Burnette, R., Gill, T. B., Yoder, L.,
+    **Ricciardi**, V., Srigiofun, Y. 2012. Methodologies for
+    strengthening informal indigenous vegetable seed systems in Northern
+    Thailand and Cambodia. Acta Horticulturae, 958: 67-74.
+
 
 <br><br><br><br>
